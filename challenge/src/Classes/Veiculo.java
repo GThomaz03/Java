@@ -11,4 +11,8 @@ public class Veiculo {
         this.modelo = modelo;
         this.ano = ano;
     }
+
+    public Boolean isPlacaValida(){
+        return true;
+    }
 }
